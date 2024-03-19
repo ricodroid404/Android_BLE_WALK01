@@ -1,4 +1,4 @@
-package com.example.android_ble_walk01.android
+package com.example.android_ble_walk01.android.view
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,7 +9,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.android_ble_walk01.Greeting
+import com.example.android_ble_walk01.android.MyApplicationTheme
 
+/**
+ * 画面表示とユーザー入力を受け取るクラス
+ */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
